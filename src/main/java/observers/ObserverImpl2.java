@@ -1,3 +1,9 @@
+package observers;
+
+import observers.Observer;
+import obsevable.Observable;
+import obsevable.ObservableImpl;
+
 public class ObserverImpl2 implements Observer {
     private int compteur;
     @Override

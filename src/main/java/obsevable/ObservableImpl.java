@@ -1,3 +1,8 @@
+package obsevable;
+
+import observers.Observer;
+
+
 import java.util.ArrayList;
 
 public class ObservableImpl implements Observable {

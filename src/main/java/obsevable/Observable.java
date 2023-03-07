@@ -1,3 +1,6 @@
+package obsevable;
+import observers.Observer;
+
 public interface Observable {  // observé subject , publisher )
 
     // c'est le sujet il deffenit 03 methodes

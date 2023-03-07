@@ -1,3 +1,11 @@
+import observers.Observer;
+import observers.ObserverImpl1;
+import observers.ObserverImpl2;
+import obsevable.Observable;
+import obsevable.ObservableImpl;
+
+import java.awt.*;
+
 public class AppTest {
     public static void main(String[] args) {
         ObservableImpl observable = new ObservableImpl();  // on un observé
@@ -28,5 +36,8 @@ public class AppTest {
 
         });
         observable.setStsate(100);
+        System.out.println("**************************************************************************************");
+
     }
+
 }

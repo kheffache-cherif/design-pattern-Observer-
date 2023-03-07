@@ -1,3 +1,9 @@
+package observers;
+
+import observers.Observer;
+import obsevable.Observable;
+import obsevable.ObservableImpl;
+
 public class ObserverImpl1 implements Observer {
     @Override
     public void update(Observable observable) {
