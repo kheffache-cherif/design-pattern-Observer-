@@ -23,10 +23,22 @@ public class ObservableImpl implements Observable {
             o.update(this);
         }
 
+        /*************************** le cas ou c'est le methode push**************************************/
+        /*
+        *  @Override
+        public void notifyObservers() {
+        for(Observer o:observers){
+            o.update(this.state);  // on pousse directempent l'information
+        }*/
+        /**************************************************************************************************/
     }
 
     public void setStsate(int stsate) {
         this.stsate = stsate;
         this.notifyObservers();
+    }
+
+    public int getStsate() {
+        return stsate;
     }
 }
